@@ -10,7 +10,6 @@ public class BackAndForth : MonoBehaviour
 
     private int _direction = 1;
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(0, 0, _direction * speed * Time.deltaTime);
